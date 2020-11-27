@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 .idea/
 disaster_response_venv/
+
+.DS_Store
