@@ -1,7 +1,9 @@
 import sys
 import pandas as pd
+import logging
 from sqlalchemy import create_engine
 
+logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
 
 def load_data(messages_filepath: str, categories_filepath: str) -> pd.DataFrame:
     """
@@ -72,17 +74,17 @@ def main():
 
         messages_filepath, categories_filepath, database_filepath = sys.argv[1:]
 
-        print('Loading data...\n    MESSAGES: {}\n    CATEGORIES: {}'
+        logging.info('Loading data...\n    MESSAGES: {}\n    CATEGORIES: {}'
               .format(messages_filepath, categories_filepath))
         df = load_data(messages_filepath, categories_filepath)
 
-        print('Cleaning data...')
+        logging.info('Cleaning data...')
         df = clean_data(df)
 
-        print('Saving data...\n    DATABASE: {}'.format(database_filepath))
+        logging.info('Saving data...\n    DATABASE: {}'.format(database_filepath))
         save_data(df, database_filepath)
 
-        print('Cleaned data saved to database!')
+        logging.info('Cleaned data saved to database!')
 
     else:
         print('Please provide the filepaths of the messages and categories ' \
