@@ -48,6 +48,9 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
             .str.split('-').str[1] \
             .astype(int)
 
+        # Clean cases when labels is greater than 1
+        categories[column] = categories.apply(lambda r: 1 if r[column] > 1 else r[column], axis=1)
+
     # Add categories to main DataFrame
     df.drop('categories', axis=1, inplace=True)
     df = pd.concat([df, categories], axis=1)
@@ -66,7 +69,7 @@ def save_data(df: pd.DataFrame, database_filename: str):
         None
     """
     engine = create_engine(f'sqlite:///{database_filename}')
-    df.to_sql('message_with_category', engine, index=False)
+    df.to_sql('message_with_category', engine, index=False, if_exists='replace')
 
 
 def main():
