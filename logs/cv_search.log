@@ -1,0 +1,332 @@
+INFO:Loading data...
+    DATABASE: data/DisasterResponse.db
+INFO:Building model...
+INFO:Training model...
+INFO:Evaluating model...
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+     related       0.75      0.34      0.46      1170
+
+   micro avg       0.75      0.34      0.46      1170
+   macro avg       0.75      0.34      0.46      1170
+weighted avg       0.75      0.34      0.46      1170
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+     request       0.90      0.98      0.94      4332
+
+   micro avg       0.90      0.98      0.94      4332
+   macro avg       0.90      0.98      0.94      4332
+weighted avg       0.90      0.98      0.94      4332
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+       offer       1.00      1.00      1.00      5224
+
+   micro avg       1.00      1.00      1.00      5224
+   macro avg       1.00      1.00      1.00      5224
+weighted avg       1.00      1.00      1.00      5224
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+ aid_related       0.79      0.84      0.82      3055
+
+   micro avg       0.79      0.84      0.82      3055
+   macro avg       0.79      0.84      0.82      3055
+weighted avg       0.79      0.84      0.82      3055
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+medical_help       0.93      1.00      0.96      4836
+
+   micro avg       0.93      1.00      0.96      4836
+   macro avg       0.93      1.00      0.96      4836
+weighted avg       0.93      1.00      0.96      4836
+
+INFO:----------------------------------------------------
+INFO:                  precision    recall  f1-score   support
+
+medical_products       0.95      1.00      0.97      4963
+
+       micro avg       0.95      1.00      0.97      4963
+       macro avg       0.95      1.00      0.97      4963
+    weighted avg       0.95      1.00      0.97      4963
+
+INFO:----------------------------------------------------
+INFO:                   precision    recall  f1-score   support
+
+search_and_rescue       0.97      1.00      0.99      5101
+
+        micro avg       0.97      1.00      0.99      5101
+        macro avg       0.97      1.00      0.99      5101
+     weighted avg       0.97      1.00      0.99      5101
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+    security       0.98      1.00      0.99      5147
+
+   micro avg       0.98      1.00      0.99      5147
+   macro avg       0.98      1.00      0.99      5147
+weighted avg       0.98      1.00      0.99      5147
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+    military       0.97      1.00      0.99      5087
+
+   micro avg       0.97      1.00      0.99      5087
+   macro avg       0.97      1.00      0.99      5087
+weighted avg       0.97      1.00      0.99      5087
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+ child_alone       1.00      1.00      1.00      5243
+
+    accuracy                           1.00      5243
+   macro avg       1.00      1.00      1.00      5243
+weighted avg       1.00      1.00      1.00      5243
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+       water       0.95      1.00      0.98      4897
+
+   micro avg       0.95      1.00      0.98      4897
+   macro avg       0.95      1.00      0.98      4897
+weighted avg       0.95      1.00      0.98      4897
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+        food       0.95      0.99      0.97      4655
+
+   micro avg       0.95      0.99      0.97      4655
+   macro avg       0.95      0.99      0.97      4655
+weighted avg       0.95      0.99      0.97      4655
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+     shelter       0.94      0.99      0.97      4764
+
+   micro avg       0.94      0.99      0.97      4764
+   macro avg       0.94      0.99      0.97      4764
+weighted avg       0.94      0.99      0.97      4764
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+    clothing       0.99      1.00      0.99      5160
+
+   micro avg       0.99      1.00      0.99      5160
+   macro avg       0.99      1.00      0.99      5160
+weighted avg       0.99      1.00      0.99      5160
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+       money       0.98      1.00      0.99      5114
+
+   micro avg       0.98      1.00      0.99      5114
+   macro avg       0.98      1.00      0.99      5114
+weighted avg       0.98      1.00      0.99      5114
+
+INFO:----------------------------------------------------
+INFO:                precision    recall  f1-score   support
+
+missing_people       0.99      1.00      1.00      5190
+
+     micro avg       0.99      1.00      1.00      5190
+     macro avg       0.99      1.00      1.00      5190
+  weighted avg       0.99      1.00      1.00      5190
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+    refugees       0.97      1.00      0.98      5077
+
+   micro avg       0.97      1.00      0.98      5077
+   macro avg       0.97      1.00      0.98      5077
+weighted avg       0.97      1.00      0.98      5077
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+       death       0.96      1.00      0.98      5004
+
+   micro avg       0.96      1.00      0.98      5004
+   macro avg       0.96      1.00      0.98      5004
+weighted avg       0.96      1.00      0.98      5004
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+   other_aid       0.87      1.00      0.93      4547
+
+   micro avg       0.87      1.00      0.93      4547
+   macro avg       0.87      1.00      0.93      4547
+weighted avg       0.87      1.00      0.93      4547
+
+INFO:----------------------------------------------------
+INFO:                        precision    recall  f1-score   support
+
+infrastructure_related       0.93      1.00      0.97      4900
+
+             micro avg       0.93      1.00      0.97      4900
+             macro avg       0.93      1.00      0.97      4900
+          weighted avg       0.93      1.00      0.97      4900
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+   transport       0.96      1.00      0.98      4994
+
+   micro avg       0.96      1.00      0.98      4994
+   macro avg       0.96      1.00      0.98      4994
+weighted avg       0.96      1.00      0.98      4994
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+   buildings       0.95      1.00      0.97      4947
+
+   micro avg       0.95      1.00      0.97      4947
+   macro avg       0.95      1.00      0.97      4947
+weighted avg       0.95      1.00      0.97      4947
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+ electricity       0.98      1.00      0.99      5140
+
+   micro avg       0.98      1.00      0.99      5140
+   macro avg       0.98      1.00      0.99      5140
+weighted avg       0.98      1.00      0.99      5140
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+       tools       1.00      1.00      1.00      5217
+
+   micro avg       1.00      1.00      1.00      5217
+   macro avg       1.00      1.00      1.00      5217
+weighted avg       1.00      1.00      1.00      5217
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+   hospitals       0.99      1.00      1.00      5193
+
+   micro avg       0.99      1.00      1.00      5193
+   macro avg       0.99      1.00      1.00      5193
+weighted avg       0.99      1.00      1.00      5193
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+       shops       1.00      1.00      1.00      5218
+
+   micro avg       1.00      1.00      1.00      5218
+   macro avg       1.00      1.00      1.00      5218
+weighted avg       1.00      1.00      1.00      5218
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+ aid_centers       0.99      1.00      0.99      5175
+
+   micro avg       0.99      1.00      0.99      5175
+   macro avg       0.99      1.00      0.99      5175
+weighted avg       0.99      1.00      0.99      5175
+
+INFO:----------------------------------------------------
+INFO:                      precision    recall  f1-score   support
+
+other_infrastructure       0.96      1.00      0.98      5013
+
+           micro avg       0.96      1.00      0.98      5013
+           macro avg       0.96      1.00      0.98      5013
+        weighted avg       0.96      1.00      0.98      5013
+
+INFO:----------------------------------------------------
+INFO:                 precision    recall  f1-score   support
+
+weather_related       0.89      0.95      0.92      3761
+
+      micro avg       0.89      0.95      0.92      3761
+      macro avg       0.89      0.95      0.92      3761
+   weighted avg       0.89      0.95      0.92      3761
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+      floods       0.95      1.00      0.97      4795
+
+   micro avg       0.95      1.00      0.97      4795
+   macro avg       0.95      1.00      0.97      4795
+weighted avg       0.95      1.00      0.97      4795
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+       storm       0.95      0.99      0.97      4743
+
+   micro avg       0.95      0.99      0.97      4743
+   macro avg       0.95      0.99      0.97      4743
+weighted avg       0.95      0.99      0.97      4743
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+        fire       0.99      1.00      1.00      5192
+
+   micro avg       0.99      1.00      1.00      5192
+   macro avg       0.99      1.00      1.00      5192
+weighted avg       0.99      1.00      1.00      5192
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+  earthquake       0.98      0.99      0.98      4741
+
+   micro avg       0.98      0.99      0.98      4741
+   macro avg       0.98      0.99      0.98      4741
+weighted avg       0.98      0.99      0.98      4741
+
+INFO:----------------------------------------------------
+INFO:              precision    recall  f1-score   support
+
+        cold       0.98      1.00      0.99      5129
+
+   micro avg       0.98      1.00      0.99      5129
+   macro avg       0.98      1.00      0.99      5129
+weighted avg       0.98      1.00      0.99      5129
+
+INFO:----------------------------------------------------
+INFO:               precision    recall  f1-score   support
+
+other_weather       0.95      1.00      0.97      4973
+
+    micro avg       0.95      1.00      0.97      4973
+    macro avg       0.95      1.00      0.97      4973
+ weighted avg       0.95      1.00      0.97      4973
+
+INFO:----------------------------------------------------
+INFO:               precision    recall  f1-score   support
+
+direct_report       0.86      0.98      0.92      4232
+
+    micro avg       0.86      0.98      0.92      4232
+    macro avg       0.86      0.98      0.92      4232
+ weighted avg       0.86      0.98      0.92      4232
+
+INFO:Saving model...
+    MODEL: models/classifier.pkl
+INFO:Trained model saved!
