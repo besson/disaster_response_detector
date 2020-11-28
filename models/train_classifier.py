@@ -1,28 +1,106 @@
 import pandas as pd
-import sys
+import numpy as np
 import nltk
 import logging
 import pickle
+import sys
 
+from nltk import pos_tag
+from sklearn.base import BaseEstimator, TransformerMixin
 from sqlalchemy import create_engine
-from nltk.tokenize import sent_tokenize, RegexpTokenizer
+from nltk.tokenize import sent_tokenize, RegexpTokenizer, word_tokenize
 from nltk.corpus.reader.wordnet import NOUN, ADJ, VERB
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
+from nltk.chunk import ne_chunk
+
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.multioutput import MultiOutputClassifier
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import SGDClassifier
-
-from sklearn.pipeline import Pipeline
+from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import classification_report
 
-nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger', 'stopwords'])
+nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger', 'stopwords', 'maxent_ne_chunker', 'words'])
 stop_words = set(stopwords.words('english'))
-logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
+logging.basicConfig(filename='logs/cv_search.log', format='%(levelname)s:%(message)s', level=logging.DEBUG)
 
 NUM_CLASSES = 36
+
+
+# CUSTOM ESTIMATORS
+class DocLength(BaseEstimator, TransformerMixin):
+    """ Estimator used to calculate document length (number of normalized tokens)
+
+        Notes:
+        In the initialization, it receives an tokenizer function that break document text
+        and sentences into a list of tokens
+    """
+
+    def __init__(self, tokenizer):
+        self.tokenizer = tokenizer
+
+    def fit(self, X, y=None):
+        return self
+
+    def transform(self, X):
+        """
+        Calculate document length
+        INPUT
+            X - An iterable which yields either str, unicode or file objects, iterable
+        OUTPUT
+            X : array of shape (n_samples, 1), int
+        """
+        X_count = pd.Series(X).apply(lambda x: len(self.tokenizer(x)))
+        return pd.DataFrame(X_count)
+
+
+class NerExtractor(BaseEstimator, TransformerMixin):
+    """ Estimator extract and attribute 'GPE', 'ORGANIZATION' or 'PERSON' named entities"""
+
+    def _extract_ner(self, text: str) -> pd.Series:
+        """
+        Process data and extract named entities
+        INPUT
+            text - content in sentences to be processed, str
+        OUTPUT
+            extracted data : object with result of entity recognition process, pd.Series
+        """
+        accepted_labels = ['GPE', 'ORGANIZATION', 'PERSON']
+        sentence_list = sent_tokenize(text)
+        labels = []
+
+        for sentence in sentence_list:
+            trees = ne_chunk(pos_tag(word_tokenize(sentence)))
+
+            for tree in trees:
+                try:
+                    labels.append(tree.flatten().label())
+                except:
+                    pass
+
+        df_dict = {}
+
+        labels = np.unique(labels).tolist()
+
+        for label in accepted_labels:
+            df_dict[label] = int(label in labels)
+
+        return df_dict
+
+    def fit(self, x, y=None):
+        return self
+
+    def transform(self, X):
+        """
+        Assign named entity to each transformed sample
+        INPUT
+            X - An iterable which yields either str, unicode or file objects, iterable
+        OUTPUT
+            X : array of shape (n_samples, 3), int
+        """
+        ner_serie = pd.Series(X).apply(self._extract_ner)
+        return pd.DataFrame(ner_serie.values.tolist(), index=ner_serie.index)
 
 
 def load_data(database_filepath: str):
@@ -87,12 +165,21 @@ def build_model():
     random_forest = RandomForestClassifier(random_state=42)
 
     pipeline = Pipeline([
-        ('vect', CountVectorizer(tokenizer=tokenize)),
-        ('tfidf', TfidfTransformer()),
-        ('clf', MultiOutputClassifier(estimator=random_forest,  n_jobs=-1))
+        ('features', FeatureUnion([
+            ('text_extract', Pipeline([
+                ('vect', CountVectorizer(tokenizer=tokenize)),
+                ('tfidf', TfidfTransformer())])),
+            ('doc_length', DocLength(tokenizer=tokenize)),
+            ('ner_extract', NerExtractor())])),
+        ('clf', MultiOutputClassifier(estimator=random_forest, n_jobs=-1))
     ])
 
-    return pipeline
+    parameters = {
+        'features__text_extract__vect__ngram_range': [(1, 1), (1, 2)],
+        'clf__estimator__n_estimators': [100, 200]
+    }
+
+    return GridSearchCV(pipeline, param_grid=parameters, verbose=10, n_jobs=-1, scoring='f1_macro')
 
 
 def evaluate_model(model, X_test, Y_test, category_names):
@@ -140,13 +227,13 @@ def main():
         logging.info('Loading data...\n    DATABASE: {}'.format(database_filepath))
         X, Y, category_names = load_data(database_filepath)
         X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
-        
+
         logging.info('Building model...')
         model = build_model()
-        
+
         logging.info('Training model...')
         model.fit(X_train, Y_train)
-        
+
         logging.info('Evaluating model...')
         evaluate_model(model, X_test, Y_test, category_names)
 
@@ -156,9 +243,9 @@ def main():
         logging.info('Trained model saved!')
 
     else:
-        print('Please provide the filepath of the disaster messages database '\
-              'as the first argument and the filepath of the pickle file to '\
-              'save the model to as the second argument. \n\nExample: python '\
+        print('Please provide the filepath of the disaster messages database ' \
+              'as the first argument and the filepath of the pickle file to ' \
+              'save the model to as the second argument. \n\nExample: python ' \
               'train_classifier.py ../data/DisasterResponse.db classifier.pkl')
 
 
