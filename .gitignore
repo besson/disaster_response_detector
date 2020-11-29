@@ -129,3 +129,5 @@ dmypy.json
 disaster_response_venv/
 
 .DS_Store
+app/logs/*.log
+
