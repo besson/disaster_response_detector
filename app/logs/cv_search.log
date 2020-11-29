@@ -1,0 +1,593 @@
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [28/Nov/2020 18:44:04] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 18:44:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:127.0.0.1 - - [28/Nov/2020 18:44:55] "[37mGET /go?query=Look+it+is+a+hurricane+in+New+York+ HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 18:46:26] "[37mGET /go?query=Weather+update+-+a+cold+front+from+Cuba+that+could+pass+over+Haiti HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 18:47:54] "[37mGET /go?query=Look+it+is+a+hurricane+in+New+York+ HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 18:50:12] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:11:08] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:12:56] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:14:37] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:15:27] "[35m[1mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 500 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:15:27] "[37mGET /go?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:15:27] "[37mGET /go?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:15:27] "[37mGET /go?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:15:27] "[37mGET /go?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:15:27] "[37mGET /go?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:15:28] "[37mGET /go?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:18:59] "[35m[1mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 500 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:18:59] "[37mGET /go?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:18:59] "[37mGET /go?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:18:59] "[37mGET /go?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:18:59] "[37mGET /go?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:18:59] "[37mGET /go?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [28/Nov/2020 22:19:00] "[37mGET /go?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 08:50:01] "[35m[1mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 500 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:50:01] "[37mGET /go?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:50:01] "[37mGET /go?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:50:01] "[37mGET /go?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:50:01] "[37mGET /go?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:50:01] "[37mGET /go?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 08:51:29] "[35m[1mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 500 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:51:29] "[37mGET /go?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:51:29] "[37mGET /go?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:51:29] "[37mGET /go?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:51:29] "[37mGET /go?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:51:29] "[37mGET /go?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 08:51:30] "[37mGET /go?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 08:53:02] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:10:59] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:11:53] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:12:59] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 09:14:55] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:16:14] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 09:23:33] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:23:33] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:26:20] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:26:58] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:28:10] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 09:30:30] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:31:10] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:32:41] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:37:38] "[37mGET /go?query=Please+help%21+We+don%27t+have+food+neither+water.+We+need+shelter HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:40:38] "[37mGET /go?query=Here+in+Amapá%2C+Brazil%2C+we+are+suffering+twenty+days+without+energy+because+a+blackout.+We+need+food+and+water%2C+please%2C+help+us%21 HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 09:49:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 09:53:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:05:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:08:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:10:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:11:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:12:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:16:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:19:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 10:19:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 10:19:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 10:21:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 10:22:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:22:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:23:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:23:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:23:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:23:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:23:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 10:23:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 11:39:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:39:25] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:39:25] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:39:25] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:39:25] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:39:25] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:39:27] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:39:53] "[37mGET /go?query=Here+in+Amapá%2C+Brazil%2C+we+are+suffering+twenty+days+without+energy+because+a+blackout.+We+need+food+and+water%2C+please%2C+help+us%21 HTTP/1.1[0m" 200 -
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 11:45:28] "[37mGET /go?query=Here+in+Amapá%2C+Brazil%2C+we+are+suffering+twenty+days+without+energy+because+a+blackout.+We+need+food+and+water%2C+please%2C+help+us%21 HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 11:54:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:54:49] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:54:49] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:54:49] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:54:49] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:54:49] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:54:49] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 11:58:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:58:17] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:58:17] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:58:17] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:58:17] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:58:17] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 11:58:17] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:09:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:09:50] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:09:50] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:09:50] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:09:50] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:09:50] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:09:50] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:13:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:14:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:15:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:15:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:18:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:19:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:20:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:20:46] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:21:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:21:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:21:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:22:55] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:23:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:23:38] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:24:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:25:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:26:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:26:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:27:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:27:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:28:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:28:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:29:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:30:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:31:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:33:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:33:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:33:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:33:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:34:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:35:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:36:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:36:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:36:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:36:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:36:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:36:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:40:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:40:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:40:38] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:41:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:42:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:42:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:42:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:43:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:44:38] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:45:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 12:45:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:127.0.0.1 - - [29/Nov/2020 12:46:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/stackoverflow-analytics/venv/lib/python3.7/site-packages/sklearn/__init__.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO:127.0.0.1 - - [29/Nov/2020 13:32:19] "[37mGET /go?query=Here+in+Amapá%2C+Brazil%2C+we+are+suffering+twenty+days+without+energy+because+a+blackout.+We+need+food+and+water%2C+please%2C+help+us%21 HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/app/run.py', reloading
+INFO: * Restarting with stat
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+DEBUG:Loaded backend macosx version unknown.
+DEBUG:Loaded backend MacOSX version unknown.
+INFO:127.0.0.1 - - [29/Nov/2020 13:37:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/plot_data/wrangle_data.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/plot_data/wrangle_data.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/plot_data/wrangle_data.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/plot_data/wrangle_data.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/plot_data/wrangle_data.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/plot_data/wrangle_data.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/plot_data/wrangle_data.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/plot_data/wrangle_data.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/plot_data/wrangle_data.py', reloading
+INFO: * Restarting with stat
+INFO: * Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126
+INFO: * Detected change in '/Users/felipe.besson/dev/study/nanodegree/disaster_response_detector/plot_data/wrangle_data.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 194-509-126

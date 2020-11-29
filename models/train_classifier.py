@@ -80,7 +80,6 @@ class NerExtractor(BaseEstimator, TransformerMixin):
                     pass
 
         df_dict = {}
-
         labels = np.unique(labels).tolist()
 
         for label in accepted_labels:

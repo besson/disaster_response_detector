@@ -9,16 +9,37 @@
 
 {% block content %}
     <h1 class="text-center">Result</h1>
+    <div class="col-md-4">
         <ul class="list-group">
-            {% for category, classification in classification_result.items() %}
+            {% for category, classification in classification_result_1 %}
+                {% if classification == 1 %}
+                    <li class="list-group-item list-group-item-success text-center">{{category.replace('_', ' ').title()}}</li>
+                {% else %}
+                    <li class="list-group-item list-group-item-light text-center">{{category.replace('_', ' ').title()}}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <ul class="list-group">
+            {% for category, classification in classification_result_2 %}
                 {% if classification == 1 %}
                     <li class="list-group-item list-group-item-success text-center">{{category.replace('_', ' ').title()}}</li>
                 {% else %}
                     <li class="list-group-item list-group-item-dark text-center">{{category.replace('_', ' ').title()}}</li>
                 {% endif %}
             {% endfor %}
+    </div>
 
-        </div>
+    <div class="col-md-4">
+        <ul class="list-group">
+            {% for category, classification in classification_result_3 %}
+                {% if classification == 1 %}
+                    <li class="list-group-item list-group-item-success text-center">{{category.replace('_', ' ').title()}}</li>
+                {% else %}
+                    <li class="list-group-item list-group-item-dark text-center">{{category.replace('_', ' ').title()}}</li>
+                {% endif %}
+            {% endfor %}
     </div>
 
 {% endblock %}
